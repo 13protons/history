@@ -1,0 +1,26 @@
+{
+  "name": "history",
+  "version": "1.0.0",
+  "description": "diff based text history for undoing and rebuilding past states",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.spec.js' --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13protons/history.git"
+  },
+  "author": "Alan Languirand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/13protons/history/issues"
+  },
+  "homepage": "https://github.com/13protons/history#readme",
+  "dependencies": {
+    "diff": "^3.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
